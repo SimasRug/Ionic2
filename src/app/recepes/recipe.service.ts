@@ -6,7 +6,7 @@ import {ShoppingListService} from '../shopping-list/shopping-list.service';
 @Injectable()
 export class RecipeService {
 
-  recipeSelected = new EventEmitter<Recipe>();
+  // recipeSelected = new EventEmitter<Recipe>();
   private recipes:Recipe[] = [
     new Recipe('Test', 'This is only a test','https://static.pexels.com/photos/5938/food-salad-healthy-lunch.jpg', [
       new Ingredient ('Bread', 5),
